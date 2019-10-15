@@ -5,7 +5,9 @@
 }
 
 body {
-    background: #f2f2f2;
+
+    background-image: url(https://cdn.shopify.com/s/files/1/1970/9573/products/1593-2x2-tile_1024x1024.jpg?v=1495157192;);
+
 }
 
 .container {
@@ -23,14 +25,24 @@ body {
 
 .header_top {
     height: 200px;
-    background-color: blue;
+    border:4px solid white;
     position: relative;
 }
 
 .header_bottom {
     height: 30px;
-    background-color: brown;
+    background-color: #696969;
     position: relative;
+}
+.menu{
+  text-align: center;
+}
+.menu h3{
+
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 
@@ -51,21 +63,23 @@ main:after {
 }
 
 .left {
-    background-color: green;
+    background-color: #FFEFD5;
     height: 300px;
 }
 
 .right .widget {
     height: 150px;
-    background-color: purple;
+    background-color: #FFEFD5;
     margin-bottom: 10px;
 }
 
 .main_content {
-    width: 60%;
-    background-color: red;
+    width: 56%;
+    background-color: #FFEFD5;
     height: 200px;
     float: left;
+    margin:0 2%;
+
 }
 .titolo {
     position: absolute;
@@ -85,15 +99,18 @@ main:after {
     height: 100%;
     background-color: rgba(0,0,0,0.3);
 }
-
-
-
-.menu h3{
-
-  color: white;
-  position: absolute;
-  text-align: right;
+.main_content{
+  color:
 }
+.main_content .testo1 h2{
+
+  text-align: center;
+  color: #708090;
+}
+
+
+
+
 
 footer {
     background-color: yellow;
